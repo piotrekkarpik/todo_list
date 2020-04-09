@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="todo">
+        <div class="header">
+            <h1>ToDo List</h1>
+            <input type="text" class="todoInput" placeholder="Wpisz treść zadania...">
+            <button class="addBtn">Add</button>
+        </div>
+        <div class="todoList">
+            <h3>Lista zadań:</h3>
+            <p class="alertInfo">Brak zadań na liście.</p>
+            <ul>
+            </ul>
+        </div>
+    </div>
+
+    <div class="popup">
+        <h3>Edytuj zadanie:</h3>
+        <div class="popupBody">
+            <p class="popupInfo"></p>
+            <input type="text" class="popupInput" placeholder="Wprowadź nowę treść zadania...">
+            <button class="popupBtn accept">Zatwierdź</button>
+            <button class="popupBtn cancel">Anuluj</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
